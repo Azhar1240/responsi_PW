@@ -1,11 +1,5 @@
 <template>
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-  />
-  <section class="hero">
-    
-      <!-- ADDITIONAL -->
+  <section class="hero2">
             <div class="home__data">
                 <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Azhar</span><br> Web Designer</h1>
 
@@ -17,26 +11,19 @@
                 <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a>
                 <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
             </div>
-            
-            <!-- ORIGINAL -->
+
+
   </section>
 </template>
 
 <script>
 export default {
-  name: "HeroSection",
-};
+  name: 'AboutSection'
+}
 </script>
 
 <style scoped>
-.hero {
-  text-align: center;
-  padding: 100px 0;
-
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about {
+  padding: 50px 0;
 }
 </style>

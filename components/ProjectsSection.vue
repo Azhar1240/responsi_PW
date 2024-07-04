@@ -1,7 +1,27 @@
 <template>
   <section class="projects">
-    <h2>My Projects</h2>
-    <!-- Tambahkan daftar proyek di sini -->
+<h2 class="section-title">Project</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/work1.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work2.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work3.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work4.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work5.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </a>
+            </div>
   </section>
 </template>
 
@@ -14,6 +34,5 @@ export default {
 <style scoped>
 .projects {
   padding: 50px 0;
-  background: #e9ecef;
 }
 </style>
