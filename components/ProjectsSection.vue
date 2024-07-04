@@ -1,5 +1,5 @@
 <template>
-  <section class="projects">
+  <section class="projects" id="projects">
 <h2 class="section-title">Project</h2>
 
             <div class="work__container bd-grid">
@@ -33,6 +33,6 @@ export default {
 
 <style scoped>
 .projects {
-  padding: 50px 0;
+  padding: 80px 0;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" id="about">
     <h2 class="section-title">About</h2>
     <div class="about__container bd-grid">
       <div class="about__img">
@@ -200,6 +200,6 @@ export default {
 
 <style scoped>
 .about {
-  padding: 50px 0;
+  padding: 80px 0;
 }
 </style>

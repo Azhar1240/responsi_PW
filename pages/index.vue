@@ -25,12 +25,14 @@ export default {
     AboutSection,
     SkillsSection,
     ProjectsSection,
-    ContactSection,
-  }
+    ContactSection
+  },
+  
+
 }
 </script>
 
 <style scoped>
-/* Scoped styles for Index.vue */
+/* Scoped styles for App.vue */
 /* Add your global styles here if needed */
 </style>

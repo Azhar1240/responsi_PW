@@ -1,5 +1,5 @@
 <template>
-  <section class="skills">
+  <section class="skills" id="Skills">
     <h2 class="section-title">Skills</h2>
 
     <div class="skills__container bd-grid">
@@ -7,12 +7,13 @@
         <!-- add text -->
         <h2 class="skills__subtitle">Description</h2>
         <p class="skills__text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio
-          id vero amet, alias architecto consectetur error eum eaque sit.Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-          vero amet, alias architecto consectetur error eum eaque sit.Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id
-          vero amet, alias architecto consectetur error eum eaque sit.
+          Dalam dunia yang terus berubah ini, saya memadukan keahlian teknis
+          yang kuat dengan visi kreatif untuk menghadirkan pengalaman web yang
+          menakjubkan. Saya percaya bahwa setiap proyek merupakan kesempatan
+          untuk mewujudkan ide-ide dengan menggunakan teknologi terkini. Dengan
+          fokus pada pengembangan front-end, saya tidak hanya menciptakan situs
+          web yang fungsional, tetapi juga menghadirkan estetika yang menawan
+          untuk setiap pengguna.
         </p>
       </div>
 
@@ -21,7 +22,7 @@
         <img src="assets/img/work6.jpg" alt="" class="skills__img" />
       </div>
 
-        <!-- SKILLS 1 -->
+      <!-- SKILLS 1 -->
       <div>
         <h2 class="skills__subtitle">Project Experiences</h2>
         <!-- Add Skills -->
@@ -123,7 +124,7 @@ export default {
 </script>
 
 <style scoped>
-.contact {
-  padding: 50px 0;
+.skills {
+  padding: 80px 0;
 }
 </style>
